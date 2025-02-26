@@ -7,6 +7,9 @@
 .page {
   min-inline-size: 360px;
   margin: 0;
+  font-family: var(--main-font, sans-serif);
+  color: var(--text-color, #000);
+  background-color: var(--bg-color, #fff);
 }
 
 p,
@@ -52,12 +55,6 @@ button[disabled] {
   --bg-color: #171717;
   --text-color: #b3b3b3;
   --accent-color: transparent;
-}
-
-.page {
-  font-family: var(--main-font, sans-serif);
-  color: var(--text-color, #000);
-  background-color: var(--bg-color, #fff);
 }
 
 .heading {
@@ -262,7 +259,7 @@ a {
 
 .footer {
   margin-block-start: 10%;
-  border-block: currentColor solid 1px;
+  border-block-start: currentColor solid 1px;
   padding: 2.5%;
   text-align: center;
 }
