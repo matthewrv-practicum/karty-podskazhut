@@ -112,7 +112,7 @@ button[disabled] {
 
 .header__theme-button_is-active::before {
   content: "";
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   width: 111%;
   height: 0.4em;
   inset-inline-start: -6%;
@@ -148,7 +148,7 @@ button[disabled] {
   .content__paragraph:first-of-type::first-letter {
   font-size: 30px;
   font-weight: bold;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   padding: 0 4px;
   margin-inline-end: 1px;
 }
@@ -214,7 +214,7 @@ a {
 
 .colored-text::before {
   content: "";
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   width: 103.5%;
   height: 0.25em;
   inset-inline-start: -1.5%;
